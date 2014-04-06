@@ -1,0 +1,64 @@
+fr:
+
+  number:
+    currency:
+      format:
+        unit:      "USD"
+        precision: 2
+        separator: "'"
+        delimiter: "."
+        format:    "%n&nbsp;%u"
+
+  layouts:
+    application:
+      title:     "Publications pragmatiques"
+      home:      "Accueil"
+      questions: "Questions"
+      news:      "Info"
+      contacts:  "Contact"
+      
+  store:
+    index:
+      title_html: "Votre catalogue pragmatique"
+      add_html:   "Ajouter au panier"
+      
+  carts:
+    cart:
+      title:    "Votre panier"
+      empty:    "Vider le panier"
+      checkout: "Passer à la caisse"
+      
+  orders:
+    new:
+      legend:          "Entrez vos coordonnées"
+    form:
+      name:            "Nom"
+      address_html:    "Adresse"
+      email:           "E-mail"
+      pay_type:        "Mode de payment"
+      pay_prompt_html: "Sélectionner un mode de paiement"
+      submit:          "Passer la commande"
+      
+  thanks:              "Merci pour votre commande"
+    
+  activerecord:
+    models:
+      order:       "commande"
+    attributes:
+      order:
+        address:   "Addresse"
+        name:      "Nom"
+        email:     "E-mail"
+        pay_type:  "Mode de paiement"
+    errors:
+      messages:
+        inclusion: "pas inclus dans la liste"
+        blank:     "ne peut être vide"
+  
+  errors:
+    template:
+      body:        "Problème avec les champs suivants:"
+      header:
+        one:       "Une erreur a empêché la sauvegarde de %{model}"
+        other:     "%{count} erreurs ont empêché la sauvegarde de %{model}"
+        
