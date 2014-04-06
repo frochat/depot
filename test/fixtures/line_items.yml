@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  order: one
   product: ruby
   cart: one 
 
 two:
+  order: one
   product: ruby
   cart: one 
